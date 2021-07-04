@@ -84,7 +84,7 @@ app.put('/persons/:personId', verifyJWT, async (req, res) => {
     res.json(err.message);
   }
 });
-//delete person
+
 app.listen(3001, () => {
   console.log('listening port 3001');
 });
